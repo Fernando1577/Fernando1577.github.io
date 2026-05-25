@@ -1,138 +1,216 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Fernando Di Capua</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
+<title>Fernando Di Capua</title>
 
-        body{
-            font-family: Arial, sans-serif;
-            max-width:1000px;
-            margin:auto;
-            padding:40px;
-            line-height:1.6;
-            color:#333;
-        }
+<style>
 
-        h1{
-            color:#1f4e79;
-            font-size:48px;
-            margin-bottom:0;
-        }
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f7f9fc;
+    color:#333;
+}
 
-        h2{
-            color:#1f4e79;
-            border-bottom:2px solid #e5e5e5;
-            padding-bottom:5px;
-            margin-top:40px;
-        }
+header{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
 
-        .subtitle{
-            font-size:22px;
-            color:#666;
-            margin-top:0;
-        }
+header h1{
+    margin:0;
+    font-size:48px;
+}
 
-        .highlight{
-            background:#f5f7fa;
-            padding:20px;
-            border-radius:10px;
-        }
+header p{
+    font-size:22px;
+    margin-top:10px;
+}
 
-        ul{
-            padding-left:20px;
-        }
+nav{
+    background:white;
+    text-align:center;
+    padding:15px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
 
-        a{
-            color:#1f4e79;
-            text-decoration:none;
-        }
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#1f4e79;
+    font-weight:bold;
+}
 
-        a:hover{
-            text-decoration:underline;
-        }
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px;
+}
 
-    </style>
+section{
+    background:white;
+    margin-bottom:25px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+h2{
+    color:#1f4e79;
+}
+
+ul{
+    line-height:1.8;
+}
+
+footer{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.linkedin{
+    font-size:18px;
+}
+
+</style>
 
 </head>
 
 <body>
 
+<header>
+
 <h1>Fernando Di Capua</h1>
 
-<p class="subtitle">
+<p>
 Controladoria • Data Science • Agronegócio
 </p>
 
-<div class="highlight">
+</header>
 
-<p>
-Profissional com mais de 22 anos de experiência em Controladoria,
-Custos, Planejamento Financeiro, Avaliação de Investimentos
-e Gestão no Agronegócio.
-</p>
+<nav>
 
-<p>
-Atualmente aprofundando conhecimentos em Ciência de Dados,
-Machine Learning e Analytics através do MIT Micromasters em Data Science.
-</p>
+<a href="#sobre">Sobre Mim</a>
+<a href="#experiencia">Experiência</a>
+<a href="#datascience">Data Science</a>
+<a href="#artigos">Artigos</a>
+<a href="#contato">Contato</a>
 
-</div>
+</nav>
+
+<div class="container">
+
+<section id="sobre">
 
 <h2>Sobre Mim</h2>
 
 <p>
-Experiência internacional atuando no Brasil e Argentina,
-liderando projetos de controladoria, orçamento,
-análise de custos, implementação de sistemas e suporte à tomada de decisão.
+Profissional com mais de 18 anos de experiência em Controladoria,
+Custos, Planejamento Financeiro e Gestão no setor de sementes e agronegócio.
 </p>
 
-<h2>Experiência Profissional</h2>
+<p>
+Atuação regional na América Latina apoiando decisões estratégicas através de análise financeira,
+modelagem econômica, orçamento, indicadores de desempenho e avaliação de investimentos.
+</p>
+
+<p>
+Atualmente aprofundando conhecimentos em Ciência de Dados,
+Machine Learning e Analytics através do MIT MicroMasters em Statistics and Data Science.
+</p>
+
+</section>
+
+<section id="experiencia">
+
+<h2>Experiência</h2>
 
 <ul>
-<li>Satus Ager S.A.</li>
 <li>Controladoria Regional Brasil</li>
-<li>Custos e Gestão</li>
-<li>Planejamento Estratégico</li>
-<li>Implementação SAP</li>
+<li>Planejamento Financeiro e Budget</li>
+<li>Forecast e KPIs</li>
 <li>Avaliação de Investimentos</li>
+<li>Gestão de Custos</li>
+<li>Implementação SAP (CO, PS, FI, MM)</li>
+<li>Desenvolvimento e capacitação de equipes</li>
+<li>Suporte à tomada de decisões estratégicas</li>
 </ul>
+
+</section>
+
+<section id="datascience">
 
 <h2>Data Science</h2>
 
 <ul>
-<li>MIT Micromasters in Data Science</li>
+<li>MIT MicroMasters in Statistics and Data Science</li>
 <li>Machine Learning</li>
-<li>Estatística</li>
-<li>Visualização de Dados</li>
+<li>Estatística Aplicada</li>
 <li>Python</li>
+<li>Pandas</li>
+<li>Scikit-Learn</li>
 <li>Dash</li>
+<li>Power BI</li>
+<li>Visualização de Dados</li>
 </ul>
 
-<h2>Projetos</h2>
+</section>
+
+<section id="artigos">
+
+<h2>Artigos e Divulgação</h2>
 
 <p>
-Em breve serão publicados projetos relacionados a:
+Em breve serão publicados conteúdos sobre:
 </p>
 
 <ul>
 <li>Forecast Financeiro</li>
-<li>Dashboards Gerenciais</li>
-<li>Machine Learning aplicado aos Negócios</li>
-<li>Análise Estatística</li>
+<li>Controladoria e Analytics</li>
+<li>Machine Learning para profissionais de negócios</li>
+<li>Data Science aplicada ao Agronegócio</li>
+<li>Estudos do MIT MicroMasters</li>
 </ul>
+
+</section>
+
+<section id="contato">
 
 <h2>Contato</h2>
 
-<p>
-LinkedIn:
-<br>
+<p class="linkedin">
+
+LinkedIn:<br>
+
 <a href="https://www.linkedin.com/in/fernando-di-capua-13b8461a/" target="_blank">
 Fernando Di Capua
 </a>
+
 </p>
 
+<p>
+📍 Uberlândia - MG - Brasil
+</p>
+
+</section>
+
+</div>
+
+<footer>
+
+Fernando Di Capua © 2026
+
+</footer>
+
 </body>
+
 </html>
